@@ -10,7 +10,7 @@ module.exports = {
 		github: 'https://github.com/EdgarHSalinas',
 		linkedin: 'https://www.linkedin.com/in/edgarsalinas/',
 	},
-	googleAnalyticsID: 'UA-88875900-4',
+	googleAnalyticsID: 'UA-135499156-1',
 	themeColor: '#6b63ff',
 	backgroundColor: '#6b63ff',
 	social: {
@@ -28,5 +28,5 @@ module.exports = {
 		phone: 'phone number',
 	},
 	foundingDate: '2016',
-	recaptcha_key: '6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN',
+	recaptcha_key: '6Lc7DZUUAAAAAFv2uLvn8bQas57h3VTufDGNDxlv',
 }
