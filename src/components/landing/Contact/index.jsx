@@ -10,7 +10,7 @@ export const Contact = () => (
 			<ContactForm />
 		</Details>
 		<Thumbnail>
-			<img src={contact} alt="I’m John and I’m a Backend & Devops engineer!" />
+			<img src={contact} alt="I’m Edgar and I’m a Full Stack Software Dev!" />
 		</Thumbnail>
 	</Wrapper>
 )

@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-portfolio",
   "private": true,
-  "description": "A simple portfolio for devs",
+  "description": "My simple portfolio",
   "version": "0.1.0",
-  "author": "Smakosh <ismai23l@hotmail.com>",
+  "author": "Edgar Salinas <EdgarHSalinas@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "dotenv": "^6.2.0",
@@ -31,6 +31,7 @@
     "react-google-recaptcha": "^1.0.5",
     "react-helmet": "^5.2.0",
     "styled-components": "^4.1.3",
+    "yarn": "^1.13.0",
     "yup": "^0.26.6"
   },
   "keywords": [

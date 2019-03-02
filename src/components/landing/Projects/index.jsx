@@ -10,9 +10,9 @@ export const Projects = () => (
 		query={graphql`
 			{
 				github {
-					repositoryOwner(login: "smakosh") {
+					repositoryOwner(login: "EdgarHSalinas") {
 						repositories(
-							first: 8
+							first: 4
 							orderBy: { field: STARGAZERS, direction: DESC }
 						) {
 							edges {
