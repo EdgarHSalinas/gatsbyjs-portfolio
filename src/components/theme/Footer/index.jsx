@@ -19,7 +19,7 @@ export const Footer = () => (
 						rel="noopener noreferrer"
 						target="_blank"
 					>
-						ESoft.dev
+						EdgarSalinas.com
 					</a>
 				</span>
 			</Details>
