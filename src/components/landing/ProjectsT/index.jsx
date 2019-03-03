@@ -3,21 +3,9 @@ import { StaticQuery, graphql } from 'gatsby'
 import { Container, Card } from 'Common'
 import starIcon from 'Static/icons/star.svg'
 import forkIcon from 'Static/icons/fork.svg'
-import {
-	Wrapper,
-	Grid,
-	Item,
-	Content,
-	Topic,
-	ItemTopic,
-	TopicTag,
-	TopicPage,
-	TopicContent,
-	Summary,
-	ItemContainer,
-} from './styles'
+import { Wrapper, Grid, Item, Content, Stats } from './styles'
 
-export const Projects = () => (
+export const ProjectsT = () => (
 	<StaticQuery
 		query={graphql`
 			{
@@ -33,11 +21,9 @@ export const Projects = () => (
 									repositoryTopics(first: 4) {
 										edges {
 											node {
-												id
 												topic {
 													name
 												}
-												url
 											}
 										}
 									}
@@ -75,27 +61,13 @@ export const Projects = () => (
 									<h4>{node.name}</h4>
 									<p>{node.description}</p>
 								</Content>
-								<Topic>
-									<Summary>
-										<TopicContent>
-											<ItemTopic>
-												<ItemContainer>
-													{node.repositoryTopics.edges.map(({ node }) => (
-														<TopicTag
-															key={node.id}
-															as="span"
-															href={node.url}
-															target="_blank"
-															rel="noopener noreferrer"
-														>
-															<TopicPage>{node.topic.name}</TopicPage>
-														</TopicTag>
-													))}
-												</ItemContainer>
-											</ItemTopic>
-										</TopicContent>
-									</Summary>
-								</Topic>
+								<Stats>
+									{node.repositoryTopics.edges.map(({ node }) => (
+										<div>
+											<span>{node.topic.name}</span>
+										</div>
+									))}
+								</Stats>
 							</Card>
 						</Item>
 					))}

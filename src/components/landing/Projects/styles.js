@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
 export const Grid = styled.div`
 	display: grid;
 	align-items: center;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 8fr;
 	gap: 1.2rem 1.2rem;
 
@@ -39,23 +39,42 @@ export const Content = styled.div`
 	padding: 1rem 0;
 `
 
-export const Stats = styled.div`
-	display: flex;
-	align-items: center;
+export const Topic = styled.div`
+	display: inline-block;
+	margin-bottom: 8px;
+`
 
-	div {
-		display: flex;
-		&:first-child {
-			margin-right: 0.5rem;
-		}
+export const Summary = styled.div`
+	list-style: none;
+	display: list-item;
+	box-sizing: border-box;
+`
+export const TopicContent = styled.div`
+	display: block;
+`
 
-		img {
-			margin: 0;
-		}
+export const ItemTopic = styled.div`
+	margin-bottom: 4px;
+	float: left;
+`
 
-		span {
-			color: #000;
-			margin-left: 0.5rem;
-		}
-	}
+export const ItemContainer = styled.div`
+	align-items: baseline;
+	display: inline-block;
+
+	flex-wrap: wrap;
+`
+
+export const TopicTag = styled.div`
+	background-color: #f1f8ff;
+	border-radius: 3px;
+	display: inline-block;
+	margin-right: 0.5rem;
+	padding: 0.3em 0.9em;
+
+	white-space: nowrap;
+`
+export const TopicPage = styled.div`
+	color: #0366d6;
+	text-decoration: none;
 `
