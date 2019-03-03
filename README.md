@@ -14,12 +14,8 @@
 - Continuous deployment with [Netlify](https://netlify.com)
 - A contact form protected by Google Recaptcha
 - Can be deployed with one click
-- Functional components with ~~Recompose~~ React Hooks! ~~ready to migrate to React hooks!~~
+- Functional components with React Hooks!
 - Fetches your Github pinned projects with most stars (You could customize this if you wish)
-
-## Design
-
-Project on [Behance](https://www.behance.net/gallery/74172961/Free-Gatsby-portfolio-for-developers)
 
 ## Structure
 

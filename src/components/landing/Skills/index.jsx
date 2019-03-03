@@ -1,7 +1,7 @@
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Container, Button } from 'Common'
-import dev from 'Static/illustrations/skills.svg'
+import dev from 'Static/illustrations/about-me.svg'
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles'
 
 export const Skills = () => (
@@ -13,8 +13,14 @@ export const Skills = () => (
 			<Details>
 				<h1>About</h1>
 				<p>
-					Lorem Ipsum is simply dummy text of the printing and typesetting
-					industry. Lorem Ipsum has been the industry’s standard dummy.
+					I am a Full-stack Software Developer. I have a passion for projects at
+					the intersection of Technology and Finance (Fin/Tech).
+				</p>
+				<p>
+					I create APIs both on a monolith or microservice architectures. Use
+					React for dynamic frontend views and work best in an agile
+					environment. I am always excited to chat about tech, the outdoors, or
+					to say hello.
 				</p>
 				<Button as={AnchorLink} href="#contact">
 					Hire me

@@ -19,7 +19,7 @@ export const Footer = () => (
 						rel="noopener noreferrer"
 						target="_blank"
 					>
-						EdgarSalinas.com
+						Edgar Salinas
 					</a>
 				</span>
 			</Details>

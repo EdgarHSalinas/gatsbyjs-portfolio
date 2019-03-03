@@ -11,8 +11,8 @@ module.exports = {
 		linkedin: 'https://www.linkedin.com/in/edgarsalinas/',
 	},
 	googleAnalyticsID: 'UA-135499156-1',
-	themeColor: '#6b63ff',
-	backgroundColor: '#6b63ff',
+	themeColor: '#1565c0',
+	backgroundColor: '#1565c0',
 	social: {
 		facebook: 'appId',
 		twitter: '@EdgarSalinasCA',
