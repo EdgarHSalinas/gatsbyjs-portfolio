@@ -15,7 +15,7 @@
 - A contact form protected by Google Recaptcha
 - Can be deployed with one click
 - Functional components with React Hooks!
-- Fetches your Github pinned projects with most stars (You could customize this if you wish)
+- Fetches your pinned projects and Technology Tags
 
 ## Structure
 

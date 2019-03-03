@@ -1,8 +1,6 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import { Container, Card } from 'Common'
-import starIcon from 'Static/icons/star.svg'
-import forkIcon from 'Static/icons/fork.svg'
 import {
 	Wrapper,
 	Grid,
