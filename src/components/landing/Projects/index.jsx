@@ -3,7 +3,19 @@ import { StaticQuery, graphql } from 'gatsby'
 import { Container, Card } from 'Common'
 import starIcon from 'Static/icons/star.svg'
 import forkIcon from 'Static/icons/fork.svg'
-import { Wrapper, Grid, Item, Content, Stats } from './styles'
+import {
+	Wrapper,
+	Grid,
+	Item,
+	Content,
+	Topic,
+	ItemTopic,
+	TopicTag,
+	TopicPage,
+	TopicContent,
+	Summary,
+	ItemContainer,
+} from './styles'
 
 export const Projects = () => (
 	<StaticQuery
@@ -11,16 +23,24 @@ export const Projects = () => (
 			{
 				github {
 					repositoryOwner(login: "EdgarHSalinas") {
-						repositories(
-							first: 4
-							orderBy: { field: STARGAZERS, direction: DESC }
-						) {
+						pinnedRepositories(first: 6) {
 							edges {
 								node {
 									id
 									name
 									url
 									description
+									repositoryTopics(first: 4) {
+										edges {
+											node {
+												id
+												topic {
+													name
+												}
+												url
+											}
+										}
+									}
 									stargazers {
 										totalCount
 									}
@@ -35,7 +55,7 @@ export const Projects = () => (
 		render={({
 			github: {
 				repositoryOwner: {
-					repositories: { edges },
+					pinnedRepositories: { edges },
 				},
 			},
 		}) => (
@@ -55,16 +75,27 @@ export const Projects = () => (
 									<h4>{node.name}</h4>
 									<p>{node.description}</p>
 								</Content>
-								<Stats>
-									<div>
-										<img src={starIcon} alt="stars" />
-										<span>{node.stargazers.totalCount}</span>
-									</div>
-									<div>
-										<img src={forkIcon} alt="forks" />
-										<span>{node.forkCount}</span>
-									</div>
-								</Stats>
+								<Topic>
+									<Summary>
+										<TopicContent>
+											<ItemTopic>
+												<ItemContainer>
+													{node.repositoryTopics.edges.map(({ node }) => (
+														<TopicTag
+															key={node.id}
+															as="span"
+															href={node.url}
+															target="_blank"
+															rel="noopener noreferrer"
+														>
+															<TopicPage>{node.topic.name}</TopicPage>
+														</TopicTag>
+													))}
+												</ItemContainer>
+											</ItemTopic>
+										</TopicContent>
+									</Summary>
+								</Topic>
 							</Card>
 						</Item>
 					))}
