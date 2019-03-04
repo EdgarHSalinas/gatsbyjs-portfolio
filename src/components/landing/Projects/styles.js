@@ -70,7 +70,8 @@ export const TopicTag = styled.div`
 	border-radius: 3px;
 	display: inline-block;
 	margin-right: 0.5rem;
-	padding: 0.3em 0.9em;
+	margin-bottom: 0.5rem;
+	padding: 0.5rem;
 
 	white-space: nowrap;
 `
