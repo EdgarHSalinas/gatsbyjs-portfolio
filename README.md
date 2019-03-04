@@ -1,12 +1,9 @@
 <p align="center">
-  <a href="https://edgarsalinas.com"><img src="static/illustrations/react.svg" /></a>
+  <a href="https://edgarsalinas.com"><img src="static/illustrations/portfolio.svg" /></a>
  </p>
 <h2 align="center">
   Portfolio built with <a href="https://www.gatsbyjs.org">Gatsby</a>.
 </h2>
-<p align="center">
-  <a href="https://edgarsalinas.com">edgarsalinas.com</a>
-</p>
 
 ### ⛵️ Lighthouse score
 
@@ -14,16 +11,13 @@
 
 ## Features
 
+- Functional components with React Hooks!
 - Eslint/Prettier configured
-- Scores 100% on a11y / Performance / PWA / SEO
 - PWA (desktop & mobile)
-- Easy to customize
 - Amazing illustrations by [Undraw.co](https://undraw.co)
 - Tablet & mobile friendly
 - Continuous deployment with [Netlify](https://netlify.com)
 - A contact form protected by Google Recaptcha
-- Can be deployed with one click
-- Functional components with React Hooks!
 - Fetches your pinned projects and Technology Tags
 
 ## Structure
