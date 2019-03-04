@@ -1,6 +1,16 @@
-# Portfolio for developers
+<p align="center">
+  <a href="https://edgarsalinas.com"><img src="static/illustrations/react.svg" /></a>
+ </p>
+<h2 align="center">
+  Portfolio built with <a href="https://www.gatsbyjs.org">Gatsby</a>.
+</h2>
+<p align="center">
+  <a href="https://edgarsalinas.com">edgarsalinas.com</a>
+</p>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/57c04515-1d1b-46e8-b531-213fabca9cc4/deploy-status)](https://app.netlify.com/sites/gatsby-portfolio-dev/deploys)
+### ⛵️ Lighthouse score
+
+![Lighthouse scores](https://lighthouse.now.sh/?perf=100&pwa=100&a11y=100&bp=100&seo=100)
 
 ## Features
 
@@ -8,7 +18,6 @@
 - Scores 100% on a11y / Performance / PWA / SEO
 - PWA (desktop & mobile)
 - Easy to customize
-- Nice project structure
 - Amazing illustrations by [Undraw.co](https://undraw.co)
 - Tablet & mobile friendly
 - Continuous deployment with [Netlify](https://netlify.com)
