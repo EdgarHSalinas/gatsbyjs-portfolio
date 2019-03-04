@@ -1,9 +1,10 @@
+<h1 align="center">
+  Portfolio built with <a href="https://www.gatsbyjs.org">Gatsby</a> and React Hooks.
+</h1>
+
 <p align="center">
   <a href="https://edgarsalinas.com"><img src="static/illustrations/portfolio.svg" /></a>
  </p>
-<h2 align="center">
-  Portfolio built with <a href="https://www.gatsbyjs.org">Gatsby</a>.
-</h2>
 
 ### ⛵️ Lighthouse score
 
