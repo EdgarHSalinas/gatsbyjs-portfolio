@@ -13,7 +13,7 @@ export const Footer = () => (
 					<span aria-label="love" role="img">
 						💖
 					</span>{' '}
-					by{' '}
+					in SF by{' '}
 					<a
 						href="https://edgarsalinas.com/?ref=portfolio-dev"
 						rel="noopener noreferrer"
