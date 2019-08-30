@@ -70,7 +70,7 @@ module.exports = {
 		{
 			resolve: 'gatsby-plugin-manifest',
 			options: {
-				name: config.defaultTitle,
+				name: 'EdgarSalinas',
 				short_name: 'starter',
 				start_url: '/',
 				background_color: config.backgroundColor,

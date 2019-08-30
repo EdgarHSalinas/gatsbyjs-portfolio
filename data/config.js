@@ -1,6 +1,6 @@
 module.exports = {
 	defaultTitle: 'Edgar Salinas',
-	logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
+	logo: 'https://edgarsalinas.com/favicon/favicon-512.png',
 	author: 'Edgar Salinas',
 	url: 'https://www.edgarsalinas.com',
 	legalName: 'Edgar Salinas',
